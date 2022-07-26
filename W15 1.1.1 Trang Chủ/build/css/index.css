@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800 &display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.line1px {
+  border: 1px;
+}
+
+body {
+  width: 1366px;
+  margin: 0 auto;
+}
+body .w15Home {
+  margin: 0 auto;
+  width: 1170px;
+  height: 10000px;
+}
+body .w15Home header {
+  width: inherit;
+  height: 162px;
+  background-color: red;
+  position: fixed;
+  box-sizing: border-box;
+}
+body .w15Home header .header__info {
+  width: 1170px;
+  height: 41px;
+  background-color: #2C2C34;
+  position: relative;
+  left: -98px;
+  display: flex;
+  padding: 0 98px;
+  justify-content: space-between;
+}
+body .w15Home header .header__info .info__contact {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+body .w15Home header .header__info .info__contact .infoText {
+  font-size: 14px;
+  margin-right: 24px;
+  color: #B7B7B7;
+}
+body .w15Home header .header__info .info__contact .infoIcon {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+}
+body .w15Home header .header__info .info__contact .info__contact--phone {
+  display: flex;
+  align-items: center;
+}
+body .w15Home header .header__info .info__contact .info__contact--mail {
+  display: flex;
+  align-items: center;
+}
+body .w15Home header .header__info .info__contact .info__contact--currentDate {
+  display: flex;
+  align-items: center;
+}
+body .w15Home header .header__info .info__social {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+body .w15Home header .header__info .info__social .info__social--lang {
+  font-size: 16px;
+  color: #B7B7B7;
+}
+body .w15Home header .header__info .info__social .arrowDownIcon {
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+}
+body .w15Home header .header__info .info__social .line1px--white {
+  height: 31px;
+  margin-left: 20px;
+  width: 0px;
+  border: 1px solid #E5E5E5;
+}
+body .w15Home header .header__info .info__social .socialIcon {
+  width: 15px;
+  height: 15px;
+  margin-left: 19px;
+}
+body .w15Home header .header__search {
+  height: 72px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+body .w15Home header .header__search .search__logo {
+  width: 170px;
+  height: 42px;
+  z-index: 10;
+}
+body .w15Home header .header__search .search__tagCtn {
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+  position: absolute;
+  left: 270px;
+}
+body .w15Home header .header__search .search__tagCtn .search__tag {
+  background-color: #F3F3F3;
+  border-radius: 20px;
+  padding: 8px 26px 8px 13px;
+  text-align: left;
+  color: #666666;
+  font: normal;
+  font-size: 14px;
+  margin-right: 20px;
+}
+body .w15Home header .header__search .search__tagCtn .chungketchampionsTag {
+  overflow: hidden;
+  text-align: left;
+  text-overflow: hidden;
+}
+body .w15Home header .header__search .line1px--header__search {
+  border: 1px solid #E5E5E5;
+  width: 0px;
+  height: 34px;
+  z-index: 10;
+  position: absolute;
+  left: 836px;
+}
+body .w15Home header .header__search .searchBg {
+  width: 343px;
+  height: inherit;
+  z-index: 5;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+}
+body .w15Home header .header__search .search__find {
+  width: 314px;
+  z-index: 10;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 20px;
+  outline: none;
+  text-indent: 20px;
+}
+body .w15Home header .header__search .searchIcon {
+  position: absolute;
+  right: 20px;
+  user-select: none;
+  top: 27px;
+}
+body .w15Home header .header__search .searchIcon .searchIconImg {
+  width: 20px;
+  opacity: 0.56;
+}
+body .w15Home header .header__nav {
+  padding: 0 98px;
+  width: 1170px;
+  position: relative;
+  left: -98px;
+  height: 49px;
+  background-color: #BE000C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .w15Home header .header__nav .nav__home {
+  width: 35px;
+  height: 35px;
+}
+body .w15Home header .header__nav .nav__text {
+  color: #FFFFFF;
+  font-size: 14px;
+  font: normal;
+}
+body .w15Home header .header__nav .nav__menu {
+  width: 14px;
+  height: 14px;
+}
+
+/*# sourceMappingURL=index.css.map */
